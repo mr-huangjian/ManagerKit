@@ -13,6 +13,7 @@
 		7E729B3C1D8448830077FC0B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E729B3A1D8448830077FC0B /* Main.storyboard */; };
 		7E729B3E1D8448830077FC0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E729B3D1D8448830077FC0B /* Assets.xcassets */; };
 		7E729B411D8448830077FC0B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E729B3F1D8448830077FC0B /* LaunchScreen.storyboard */; };
+		7E729B4B1D84524D0077FC0B /* SearchHistoryManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E729B4A1D84524D0077FC0B /* SearchHistoryManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		7E729B3D1D8448830077FC0B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7E729B401D8448830077FC0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7E729B421D8448830077FC0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E729B491D84524D0077FC0B /* SearchHistoryManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchHistoryManager.h; sourceTree = "<group>"; };
+		7E729B4A1D84524D0077FC0B /* SearchHistoryManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchHistoryManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		7E729B301D8448830077FC0B /* ManagerKit */ = {
 			isa = PBXGroup;
 			children = (
+				7E729B481D8452440077FC0B /* SearchHistoryManager */,
 				7E729B341D8448830077FC0B /* AppDelegate.h */,
 				7E729B351D8448830077FC0B /* AppDelegate.m */,
 				7E729B371D8448830077FC0B /* ViewController.h */,
@@ -77,6 +81,15 @@
 				7E729B321D8448830077FC0B /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7E729B481D8452440077FC0B /* SearchHistoryManager */ = {
+			isa = PBXGroup;
+			children = (
+				7E729B491D84524D0077FC0B /* SearchHistoryManager.h */,
+				7E729B4A1D84524D0077FC0B /* SearchHistoryManager.m */,
+			);
+			path = SearchHistoryManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,6 +162,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E729B4B1D84524D0077FC0B /* SearchHistoryManager.m in Sources */,
 				7E729B391D8448830077FC0B /* ViewController.m in Sources */,
 				7E729B361D8448830077FC0B /* AppDelegate.m in Sources */,
 				7E729B331D8448830077FC0B /* main.m in Sources */,
@@ -300,6 +314,7 @@
 				7E729B471D8448830077FC0B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
