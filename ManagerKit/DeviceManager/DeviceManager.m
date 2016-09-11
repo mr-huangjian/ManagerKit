@@ -6,8 +6,11 @@
 //  Copyright © 2016年 hj. All rights reserved.
 //
 
-#import "DeviceManager.h"
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 #include <sys/utsname.h>
+
+#import "DeviceManager.h"
 
 @interface DeviceManager ()
 
