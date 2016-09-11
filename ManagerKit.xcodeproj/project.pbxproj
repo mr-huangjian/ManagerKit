@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7E57907A1D84F51800B285A7 /* AppsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E5790791D84F51800B285A7 /* AppsManager.m */; };
 		7E729B331D8448830077FC0B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E729B321D8448830077FC0B /* main.m */; };
 		7E729B361D8448830077FC0B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E729B351D8448830077FC0B /* AppDelegate.m */; };
 		7E729B391D8448830077FC0B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E729B381D8448830077FC0B /* ViewController.m */; };
@@ -17,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7E5790781D84F51800B285A7 /* AppsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppsManager.h; sourceTree = "<group>"; };
+		7E5790791D84F51800B285A7 /* AppsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppsManager.m; sourceTree = "<group>"; };
 		7E729B2E1D8448830077FC0B /* ManagerKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ManagerKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E729B321D8448830077FC0B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7E729B341D8448830077FC0B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -42,6 +45,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7E5790771D84F51800B285A7 /* AppsManager */ = {
+			isa = PBXGroup;
+			children = (
+				7E5790781D84F51800B285A7 /* AppsManager.h */,
+				7E5790791D84F51800B285A7 /* AppsManager.m */,
+			);
+			path = AppsManager;
+			sourceTree = "<group>";
+		};
 		7E729B251D8448830077FC0B = {
 			isa = PBXGroup;
 			children = (
@@ -62,6 +74,7 @@
 			isa = PBXGroup;
 			children = (
 				7E729B481D8452440077FC0B /* SearchHistoryManager */,
+				7E5790771D84F51800B285A7 /* AppsManager */,
 				7E729B341D8448830077FC0B /* AppDelegate.h */,
 				7E729B351D8448830077FC0B /* AppDelegate.m */,
 				7E729B371D8448830077FC0B /* ViewController.h */,
@@ -164,6 +177,7 @@
 			files = (
 				7E729B4B1D84524D0077FC0B /* SearchHistoryManager.m in Sources */,
 				7E729B391D8448830077FC0B /* ViewController.m in Sources */,
+				7E57907A1D84F51800B285A7 /* AppsManager.m in Sources */,
 				7E729B361D8448830077FC0B /* AppDelegate.m in Sources */,
 				7E729B331D8448830077FC0B /* main.m in Sources */,
 			);
