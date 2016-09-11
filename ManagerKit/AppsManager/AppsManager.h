@@ -5,6 +5,9 @@
 //  Created by hj on 16/8/24.
 //  Copyright © 2016年 hj. All rights reserved.
 //
+//  参考文章：
+//  https://github.com/ChenYilong/iOS9AdaptationTips
+//  5. iOS9 URL Scheme 适配_引入白名单概念
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
